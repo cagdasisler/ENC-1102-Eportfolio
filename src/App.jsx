@@ -23,7 +23,7 @@ const outcomes = [
       },
     ],
     reflectionText:
-      'These two artifacts capture the messy start of my project. In the literate activity report I’m blunt about what I read, how I learned, and why bias in forensic psychology stuck in my head. The annotated proposal shows me chopping that curiosity into a researchable slice after peer/instructor feedback. I cut scope, rewrote research questions, and kept only what served the main line of inquiry. Inquiry for me is a loop: notice a hunch, draft a question, stress-test it with readers, then sand it down until it’s specific and doable. You can literally see the early “maybe I can study everything” moments get crossed out and replaced with a tighter focus that respects time, length, and audience.',
+      'This outcome shows how my curiosity about gym culture turned into a focused research question. The Literate Activity Report was the first step because it pushed me to observe the cycling class closely and pay attention to technical terms, emotional cues, and digital signals working together to shape how people understood the workout. That early observation helped me see that gyms function as learning spaces, not just workout rooms. When I moved into my early proposal draft, I used that same curiosity to narrow my topic into a specific question about social rules, digital tools, and emotional responses in gyms. Comparing these two artifacts makes the progress clear. The first one captures the moment where everything felt new and full of possibilities. The second shows how I began to cut extra ideas and center the inquiry around one main direction. Together they show how my thinking shifted from broad interest to a focused question that guided the rest of my project.',
   },
   {
     id: 'outcome-2',
@@ -44,7 +44,7 @@ const outcomes = [
       },
     ],
     reflectionText:
-      'I lean on multimodality whenever the writing risks turning into a wall of text. In the draft I tie each claim to a screenshot or visual so readers can see what I’m seeing rather than trusting a summary. Color-coded annotations help me surface patterns faster than another paragraph could, and they also keep me honest about where I’m inferring versus observing. The site layout mirrors that “skim then dive” rhythm so you can hop between sections and visuals without getting lost. Whether I’m talking to Writing & Rhetoric faculty or CS peers, the goal is the same: give them anchors (color, images, layout cues) so the evidence is easy to follow.',
+      'This outcome highlights how I used different modes and design choices to make my writing easier for readers to navigate. The multimodal draft with color coded annotations helped me understand where my arguments were strong and where I needed to revise. Making those revisions visible through color and layout helped me track patterns that I could not see in plain text. I also applied multimodality in my ePortfolio by organizing the page with clear sections, embedded PDFs, and labeled headings that guide readers through each outcome. These choices mirror the same habits I used in my drafts, where visuals, spacing, and screenshots helped me present research and feedback clearly. Across both artifacts, multimodality allowed me to communicate in a way that supports the reader rather than overwhelming them.',
   },
   {
     id: 'outcome-3',
@@ -65,7 +65,7 @@ const outcomes = [
       },
     ],
     reflectionText:
-      'The research log is me documenting every “why this source, why not that one” decision—databases searched, filters applied, how I checked bias, and where I bailed on a source. It’s picky on purpose. The literature review is the synthesis: grouping sources, exposing gaps, and showing how I avoided leaning too hard on one article or one viewpoint. You can see me quote, paraphrase, and then step back to question relevance. Together they show repeatable info-lit habits I can reuse in CS research where credibility and ethics are non-negotiable.',
+      'This outcome focuses on how I learned to locate sources, evaluate them, and use them ethically. My Research Log shows that process clearly because each entry explains where I found the source, how I searched for it, and why it was credible. I learned to pay attention to peer review, publication details, and the purpose of each study. The Literature Review demonstrates the next step: putting all those sources together into a single conversation. Instead of treating each article separately, I grouped them by shared ideas about social behavior, digital tools, and emotional literacy in gyms. These two artifacts show how my research skills improved. I moved from simply gathering sources to analyzing their connections and deciding which ones actually supported my argument.',
   },
   {
     id: 'outcome-4',
@@ -86,7 +86,7 @@ const outcomes = [
       },
     ],
     reflectionText:
-      'The researched write-up outline is my scaffold. It moves from outer structures of my primary data to the inner details, and I even left a third claim I later cut so you can see the decision trail. The final proposal sticks to that outside-to-inside flow while arguing about bias in forensic psychology evaluations. I limited embeds to the few visuals that actually help readers stay oriented because too many screenshots made the draft unreadable in peer review. Color-coded feedback sits on the draft so you can see where audience eyes made me restructure sections and tighten claims. This is me using genre rules (like IMRaD-ish sequencing) on purpose, not by accident.',
+      'This outcome shows how I learned to write within a specific academic genre. The Final Research Proposal follows the structure expected for college level research: introduction, literature review, methodology, and significance. I used the literature review to show what other scholars have already discovered and where the gap in the research exists. In the methodology section, I explained who I planned to interview, why I selected them, how I would collect the data, and how I would analyze it. The significance section helped me think about why the research matters for gyms, instructors, and students who rely on digital tools and emotional support to build confidence. This artifact demonstrates that I can take a complex topic and organize it into a structured, readable research proposal.',
   },
   {
     id: 'outcome-5',
@@ -107,7 +107,7 @@ const outcomes = [
       },
     ],
     reflectionText:
-      'Contribution shows up in how I staged the argument. The outline forces me to earn each claim—start with big patterns in the data, then zoom into the inner pieces—so readers always know why a detail matters. The final paper on bias in forensic psychology evaluations keeps that sequence and pairs visuals with claims so the “so what” stays visible instead of buried. Peer comments (color-coded to the edits they triggered) pushed me to sharpen the significance sections instead of just reporting what I found. The result is a clearer claim about where bias shows up, why it’s a problem for real cases, and how this adds to the conversation rather than repeating it.',
+      'This outcome shows how my work adds something new to the conversation created by other scholars. In my literature review, I identified that researchers usually study gym social rules, digital systems, and emotional factors separately. By bringing these three literacies together, my project highlights how they interact to shape real experiences in gyms. The significance section of my proposal explains why this matters. Understanding how these literacies overlap can help fitness centers create better support for beginners, improve digital onboarding, and strengthen community building. This contribution moves beyond summarizing research and instead uses the existing studies to build a new direction that future research could expand.',
   },
   {
     id: 'outcome-6',
@@ -128,7 +128,7 @@ const outcomes = [
       },
     ],
     reflectionText:
-      'Revision is me being coachable. I tag feedback by type—structure, clarity, evidence—then decide what actually aligns to my research question. Conflicting comments get weighed against the core argument instead of whoever is louder. The color-coded peer notes on the proposal make those choices visible: you can trace how one comment led me to reorder sections, cut a weak claim, or swap in a clearer visual. It’s messy, but the before/after snapshots show exactly where the paper tightened up and why I trusted some feedback over other feedback.',
+      'This outcome highlights how feedback and self review shaped my writing. The annotated proposal shows where peer comments helped me rearrange paragraphs, cut weaker claims, and clarify confusing parts of my argument. Color coded markings made the revision process easy to track because I could see exactly which notes referred to structure, clarity, or evidence. When comparing the draft to the final proposal, the changes are visible. I reorganized sections, strengthened transitions, and simplified the methodology to make it more readable. This outcome makes it clear that revision was not just correcting mistakes but making choices based on what supported the project best. It shows how being open to feedback helped me produce a stronger final piece.',
   },
 ]
 
