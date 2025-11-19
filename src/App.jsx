@@ -7,7 +7,7 @@ const outcomes = [
   {
     id: 'outcome-1',
     title: 'Outcome 1 · Generating Inquiry',
-    description: 'Curiosity moved into focused research questions through my literacy activity report and early proposals.',
+    description: '',
     artifacts: [
       {
         name: 'Literate Activity Report (PDF)',
@@ -28,7 +28,7 @@ const outcomes = [
   {
     id: 'outcome-2',
     title: 'Outcome 2 · Multiple Ways of Writing',
-    description: 'Multimodal choices—visuals, layout, media—that supported my argument across assignments.',
+    description: '',
     artifacts: [
       {
         name: 'Course ePortfolio (this site)',
@@ -49,7 +49,7 @@ const outcomes = [
   {
     id: 'outcome-3',
     title: 'Outcome 3 · Information Literacy',
-    description: 'Evaluating sources, logging research choices, and synthesizing credible evidence.',
+    description: '',
     artifacts: [
       {
         name: 'Research Log (PDF)',
@@ -70,7 +70,7 @@ const outcomes = [
   {
     id: 'outcome-4',
     title: 'Outcome 4 · Research Genre Production',
-    description: 'Navigating genre expectations (IMRaD, proposals, reviews) for academic and public audiences.',
+    description: '',
     artifacts: [
       {
         name: 'Final Research Proposal (PDF)',
@@ -91,7 +91,7 @@ const outcomes = [
   {
     id: 'outcome-5',
     title: 'Outcome 5 · Contributing Knowledge',
-    description: 'Connecting primary evidence to the scholarly conversation and explaining my contribution.',
+    description: '',
     artifacts: [
       {
         name: 'Literature Review “niche” section',
@@ -112,7 +112,7 @@ const outcomes = [
   {
     id: 'outcome-6',
     title: 'Outcome 6 · Revision',
-    description: 'How peer/instructor feedback and self-review shaped drafts, structure, and design.',
+    description: '',
     artifacts: [
       {
         name: 'Revision map with peer feedback',
@@ -155,7 +155,6 @@ function ArtifactCard({ artifact, onExpand }) {
       ) : (
         <div className="embed-shell empty">PDF or image placeholder.</div>
       )}
-      <p className="reflection-hook">Reflection: how this piece meets the outcome above.</p>
     </div>
   )
 }
