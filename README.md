@@ -13,7 +13,7 @@ npm run dev
 > If you are on an experimental Node version (e.g., 23) and `esbuild` fails to install, switch to an LTS version (Node 20/22) and re-run `npm install`.
 
 ## Swap in your artifacts
-- Place files in `public/artifacts/`, e.g. `public/artifacts/literate-activity-report.pdf`.
+- Place files in `public/artifacts/` (the folder now exists with a .gitkeep), e.g. `public/artifacts/literate-activity-report.pdf`.
 - Edit `src/App.jsx` and replace each `embedSrc` with your path (e.g., `/artifacts/research-log.pdf`).
 - Replace the placeholder reflection hooks with your own 2–3 sentence reflections that mention what’s visible in the embed.
 

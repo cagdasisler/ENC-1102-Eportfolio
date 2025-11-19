@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 
-// Drop your PDFs/images into public/artifacts/ and update each embedSrc below to "/artifacts/your-file.pdf" (or .png/.jpg).
+// Drop your PDFs/images into public/artifacts/ (folder exists with .gitkeep) and update each embedSrc below to "/artifacts/your-file.pdf" (or .png/.jpg).
 
 const outcomes = [
   {
@@ -13,20 +13,17 @@ const outcomes = [
         name: 'Literate Activity Report (PDF)',
         type: 'PDF embed',
         outcomeFocus: 'How my literacy background shaped the questions I pursued.',
-        embedSrc: 'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf',
+        embedSrc: '/artifacts/lit%20activity%20rep/literate%20activity%20report%20final.pdf',
       },
       {
         name: 'Initial Research Proposal + brief analysis (PDF)',
         type: 'PDF embed',
         outcomeFocus: 'Proposal and early analysis showing how I refined the core question.',
-        embedSrc: 'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf',
+        embedSrc: '/artifacts/final%20research%20proposal/annotated-1102_Proposal_Review.docx.pdf',
       },
     ],
-    reflectionPrompts: [
-      'The line of inquiry that first excited me and how it evolved after early research.',
-      'Peer or instructor feedback that reframed or narrowed the question.',
-      'How this inquiry habit will transfer to future CS research projects.',
-    ],
+    reflectionText:
+      'These two artifacts capture the messy start of my project. In the literate activity report I’m blunt about what I read, how I learned, and why bias in forensic psychology stuck in my head. The annotated proposal shows me chopping that curiosity into a researchable slice after peer/instructor feedback. I cut scope, rewrote research questions, and kept only what served the main line of inquiry. Inquiry for me is a loop: notice a hunch, draft a question, stress-test it with readers, then sand it down until it’s specific and doable. You can literally see the early “maybe I can study everything” moments get crossed out and replaced with a tighter focus that respects time, length, and audience.',
   },
   {
     id: 'outcome-2',
@@ -43,14 +40,11 @@ const outcomes = [
         name: 'Multimodal draft or discussion post',
         type: 'Image/PDF embed',
         outcomeFocus: 'A multimodal artifact (charts, sketches, bilingual elements) that supported the research story.',
-        embedSrc: 'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf',
+        embedSrc: '/artifacts/lit%20review/annotated-1102_Self_LR-3%20%281%29.pdf',
       },
     ],
-    reflectionPrompts: [
-      'Where I intentionally mixed modes (text, visuals, links) to make evidence clearer.',
-      'Design or language choices tailored to an international audience or CS peers.',
-      'What I would add (video, code snippets, interactive chart) with more time.',
-    ],
+    reflectionText:
+      'I lean on multimodality whenever the writing risks turning into a wall of text. In the draft I tie each claim to a screenshot or visual so readers can see what I’m seeing rather than trusting a summary. Color-coded annotations help me surface patterns faster than another paragraph could, and they also keep me honest about where I’m inferring versus observing. The site layout mirrors that “skim then dive” rhythm so you can hop between sections and visuals without getting lost. Whether I’m talking to Writing & Rhetoric faculty or CS peers, the goal is the same: give them anchors (color, images, layout cues) so the evidence is easy to follow.',
   },
   {
     id: 'outcome-3',
@@ -61,20 +55,17 @@ const outcomes = [
         name: 'Research Log (PDF)',
         type: 'PDF embed',
         outcomeFocus: 'Source vetting, database filters, and notes about credibility/ethics.',
-        embedSrc: 'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf',
+        embedSrc: '/artifacts/research%20log/Research%20Log%20Complete.pdf',
       },
       {
         name: 'Literature Review + reflection (PDF)',
         type: 'PDF embed',
         outcomeFocus: 'How I organized sources, tracked gaps, and cited ethically.',
-        embedSrc: 'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf',
+        embedSrc: '/artifacts/lit%20review/Lit%20Review%20Completedpdf.pdf',
       },
     ],
-    reflectionPrompts: [
-      'How I judged credibility and relevance for the research question.',
-      'Search strategies or databases that worked best and how I will reuse them in CS research.',
-      'How I handled citation ethics (quoting, paraphrasing, avoiding over-reliance on one source).',
-    ],
+    reflectionText:
+      'The research log is me documenting every “why this source, why not that one” decision—databases searched, filters applied, how I checked bias, and where I bailed on a source. It’s picky on purpose. The literature review is the synthesis: grouping sources, exposing gaps, and showing how I avoided leaning too hard on one article or one viewpoint. You can see me quote, paraphrase, and then step back to question relevance. Together they show repeatable info-lit habits I can reuse in CS research where credibility and ethics are non-negotiable.',
   },
   {
     id: 'outcome-4',
@@ -82,10 +73,10 @@ const outcomes = [
     description: 'Navigating genre expectations (IMRaD, proposals, reviews) for academic and public audiences.',
     artifacts: [
       {
-        name: 'Final Research Proposal (PDF placeholder)',
+        name: 'Final Research Proposal (PDF)',
         type: 'PDF embed',
         outcomeFocus: 'Intro–method–significance flow demonstrating genre awareness.',
-        embedSrc: 'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf',
+        embedSrc: '/artifacts/final%20research%20proposal/Final%20Research%20Proposal.pdf',
       },
       {
         name: 'Genre comparison notes',
@@ -94,11 +85,8 @@ const outcomes = [
         embedSrc: '',
       },
     ],
-    reflectionPrompts: [
-      'Genre conventions that helped me communicate effectively and where they felt restrictive.',
-      'How audience (professor, peers, public readers) changed my choices.',
-      'Where I borrowed models like IMRaD or Swales’ CARS to structure sections.',
-    ],
+    reflectionText:
+      'The researched write-up outline is my scaffold. It moves from outer structures of my primary data to the inner details, and I even left a third claim I later cut so you can see the decision trail. The final proposal sticks to that outside-to-inside flow while arguing about bias in forensic psychology evaluations. I limited embeds to the few visuals that actually help readers stay oriented because too many screenshots made the draft unreadable in peer review. Color-coded feedback sits on the draft so you can see where audience eyes made me restructure sections and tighten claims. This is me using genre rules (like IMRaD-ish sequencing) on purpose, not by accident.',
   },
   {
     id: 'outcome-5',
@@ -109,20 +97,17 @@ const outcomes = [
         name: 'Literature Review “niche” section',
         type: 'PDF embed',
         outcomeFocus: 'The gap I identified and how I positioned this project inside it.',
-        embedSrc: 'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf',
+        embedSrc: '/artifacts/lit%20review/annotated-Lit%20review%20part%20c.pdf',
       },
       {
         name: 'Final Research Proposal – significance',
         type: 'PDF embed',
         outcomeFocus: 'Planned study significance for readers beyond the classroom.',
-        embedSrc: 'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf',
+        embedSrc: '/artifacts/final%20research%20proposal/C%29%20final%20proposal.pdf',
       },
     ],
-    reflectionPrompts: [
-      'The claim I add to the conversation and the evidence that supports it.',
-      'How I situate my perspective with other scholars.',
-      'The next experiment or artifact that would strengthen this contribution.',
-    ],
+    reflectionText:
+      'Contribution shows up in how I staged the argument. The outline forces me to earn each claim—start with big patterns in the data, then zoom into the inner pieces—so readers always know why a detail matters. The final paper on bias in forensic psychology evaluations keeps that sequence and pairs visuals with claims so the “so what” stays visible instead of buried. Peer comments (color-coded to the edits they triggered) pushed me to sharpen the significance sections instead of just reporting what I found. The result is a clearer claim about where bias shows up, why it’s a problem for real cases, and how this adds to the conversation rather than repeating it.',
   },
   {
     id: 'outcome-6',
@@ -133,7 +118,7 @@ const outcomes = [
         name: 'Revision map with peer feedback',
         type: 'Image/PDF embed',
         outcomeFocus: 'Comments received and the concrete edits I made.',
-        embedSrc: 'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf',
+        embedSrc: '/artifacts/final%20research%20proposal/annotated-1102_Proposal_Review.docx.pdf',
       },
       {
         name: 'Before/after paragraph comparison',
@@ -142,15 +127,12 @@ const outcomes = [
         embedSrc: '',
       },
     ],
-    reflectionPrompts: [
-      'The feedback that changed my direction the most.',
-      'How I triaged conflicting feedback.',
-      'Revision habits I will keep (versioning, checklists, read-alouds).',
-    ],
+    reflectionText:
+      'Revision is me being coachable. I tag feedback by type—structure, clarity, evidence—then decide what actually aligns to my research question. Conflicting comments get weighed against the core argument instead of whoever is louder. The color-coded peer notes on the proposal make those choices visible: you can trace how one comment led me to reorder sections, cut a weak claim, or swap in a clearer visual. It’s messy, but the before/after snapshots show exactly where the paper tightened up and why I trusted some feedback over other feedback.',
   },
 ]
 
-function ArtifactCard({ artifact }) {
+function ArtifactCard({ artifact, onExpand }) {
   return (
     <div className="artifact-card">
       <div className="artifact-meta">
@@ -161,6 +143,14 @@ function ArtifactCard({ artifact }) {
       {artifact.embedSrc ? (
         <div className="embed-shell">
           <iframe title={artifact.name} src={artifact.embedSrc} loading="lazy" />
+          <div className="embed-actions">
+            <button className="pill-btn small" onClick={() => onExpand(artifact.embedSrc)}>
+              Expand to read
+            </button>
+            <a className="pill-btn ghost small" href={artifact.embedSrc} target="_blank" rel="noreferrer">
+              Open in new tab ↗
+            </a>
+          </div>
         </div>
       ) : (
         <div className="embed-shell empty">PDF or image placeholder.</div>
@@ -183,17 +173,13 @@ function OutcomeSection({ outcome }) {
 
       <div className="artifact-grid">
         {outcome.artifacts.map((artifact) => (
-          <ArtifactCard key={artifact.name} artifact={artifact} />
+          <ArtifactCard key={artifact.name} artifact={artifact} onExpand={(src) => outcome.onExpand?.(src)} />
         ))}
       </div>
 
-      <div className="reflection-prompts">
-        <p className="eyebrow">Reflection prompts</p>
-        <ul>
-          {outcome.reflectionPrompts.map((prompt) => (
-            <li key={prompt}>{prompt}</li>
-          ))}
-        </ul>
+      <div className="reflection-block">
+        <p className="eyebrow">Reflection</p>
+        <p className="subtext">{outcome.reflectionText}</p>
       </div>
     </section>
   )
@@ -201,6 +187,7 @@ function OutcomeSection({ outcome }) {
 
 function App() {
   const [page, setPage] = useState('home')
+  const [expandedSrc, setExpandedSrc] = useState(null)
 
   return (
     <div className="page">
@@ -279,7 +266,7 @@ function App() {
             <h2>Outcome sections</h2>
             <p className="subtext">Each outcome pairs 1–2 artifacts and a brief reflection on how the evidence meets it.</p>
             {outcomes.map((outcome) => (
-              <OutcomeSection key={outcome.id} outcome={outcome} />
+              <OutcomeSection key={outcome.id} outcome={{ ...outcome, onExpand: setExpandedSrc }} />
             ))}
           </section>
         </main>
@@ -294,6 +281,25 @@ function App() {
             <p className="subtext">My Linkedin: https://www.linkedin.com/in/cagdasisler/</p>
           </section>
         </main>
+      )}
+
+      {expandedSrc && (
+        <div className="modal-backdrop" onClick={() => setExpandedSrc(null)}>
+          <div className="modal" onClick={(e) => e.stopPropagation()}>
+            <div className="modal-header">
+              <p className="eyebrow">Expanded view</p>
+              <button className="pill-btn small" onClick={() => setExpandedSrc(null)}>
+                Close
+              </button>
+            </div>
+            <iframe title="Expanded artifact" src={expandedSrc} loading="lazy" className="modal-embed" />
+            <div className="modal-actions">
+              <a className="pill-btn ghost small" href={expandedSrc} target="_blank" rel="noreferrer">
+                Open in new tab ↗
+              </a>
+            </div>
+          </div>
+        </div>
       )}
     </div>
   )

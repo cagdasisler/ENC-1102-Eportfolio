@@ -116,6 +116,16 @@
   cursor: pointer;
 }
 
+.pill-btn.small {
+  padding: 0.25rem 0.75rem;
+  font-weight: 600;
+}
+
+.pill-btn.ghost {
+  background: transparent;
+  border-color: #d7dfef;
+}
+
 main {
   display: flex;
   flex-direction: column;
@@ -203,12 +213,23 @@ main {
   background: #fff;
   min-height: 180px;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
 }
 
 .embed-shell iframe {
   width: 100%;
   height: 240px;
   border: none;
+}
+
+.embed-actions {
+  display: flex;
+  gap: 0.5rem;
+  padding: 0.5rem;
+  justify-content: flex-end;
+  border-top: 1px solid var(--border);
+  background: #f6f8fc;
 }
 
 .embed-shell.empty {
@@ -229,6 +250,14 @@ main {
   line-height: 1.6;
 }
 
+.reflection-block {
+  margin-top: 0.6rem;
+  background: #f7f9fc;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 0.75rem 0.9rem;
+}
+
 .footer {
   border-top: 1px solid var(--border);
   margin-top: 1.6rem;
@@ -242,6 +271,49 @@ main {
 
 .footer a {
   color: var(--accent);
+}
+
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+  display: grid;
+  place-items: center;
+  padding: 1rem;
+  z-index: 30;
+}
+
+.modal {
+  width: min(1100px, 95vw);
+  height: min(85vh, 900px);
+  background: #fff;
+  border-radius: 14px;
+  border: 1px solid var(--border);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.18);
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.9rem 1rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.modal-embed {
+  flex: 1;
+  border: none;
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0.8rem 1rem;
+  border-top: 1px solid var(--border);
+  background: #f9fafc;
 }
 
 @media (max-width: 720px) {
