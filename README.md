@@ -17,6 +17,13 @@ npm run dev
 - Edit `src/App.jsx` and replace each `embedSrc` with your path (e.g., `/artifacts/research-log.pdf`).
 - Replace the placeholder reflection hooks with your own 2–3 sentence reflections that mention what’s visible in the embed.
 
+## Preview files (for inline readers)
+Place your PDFs in `public/files/` with these exact names so the preview iframes work:
+- `discussion1.pdf`, `discussion3.pdf`, `discussion7.pdf`, `discussion9.pdf`, `discussion10.pdf`, `discussion26.pdf`
+- `research-log.pdf`, `literature-review.pdf`, `literate-activity-report.pdf`
+- `initial-research-proposal.pdf`, `final-research-proposal.pdf`
+- `initial-draft.pdf`, `final-draft.pdf`
+
 ## Customize the look
 - Colors/spacing live in `src/App.css` and `src/index.css`.
 - Add your photos or hero image to `public/images/` and reference them in `src/App.jsx`.
