@@ -49,13 +49,6 @@ function App() {
   return (
     <div className="page">
       <nav className="top-nav">
-        <div className="brand">
-          <div className="brand-mark">CE</div>
-          <div>
-            <p className="eyebrow">ENC 1102 ePortfolio</p>
-            <strong>Cagdas Emre Isler · From shaky reps to confident sets</strong>
-          </div>
-        </div>
         <div className="nav-links">
           {tabs.map((tab) => (
             <button

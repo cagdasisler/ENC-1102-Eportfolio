@@ -10,11 +10,9 @@ function WarmUpQuestions() {
         <p className="eyebrow">Outcome 1: Generating Inquiry</p>
         <h2>Warm Up Questions (Outcome 1)</h2>
         <p className="subtext">
-          I opened the semester like a warm up set, testing what felt tight or awkward and figuring out where I was
-          curious. I knew I cared about writing and gym culture, so I built questions that could actually carry weight:
-          how people talk about fitness online, how language in gyms shapes belonging, and where writing shows up in
-          places we do not always notice. Early assignments pushed me to slow down and stretch those ideas instead of
-          rushing into heavy lifts.
+          Working on Outcome 1 felt like warming up before a heavy lift. At first everything was loose and unsure. My
+          ideas were wide, and I did not know exactly what my research question should be. Over time, the warm up helped
+          me stretch my thinking, slow down, and build a clear question about gym literacy and confidence.
         </p>
       </div>
 
@@ -31,10 +29,12 @@ function WarmUpQuestions() {
             </button>
           </div>
           <p className="subtext">
-            I began this course the same way I begin a warm up at the gym. I tried to figure out what felt right and what
-            I was curious about. My ideas were very wide at first, so I treated them like warm up reps. Discussion 1
-            helped me think about the communities I am part of like gaming, fitness, and computer science. I saw that all
-            of them use writing in different ways. That became the first step that pushed my curiosity.
+            In Discussion 1 I took my first small steps into inquiry. I introduced myself and talked about my backgrounds
+            in gaming, fitness, and computer science. In that post I said that writing shows up a lot more than we
+            notice, like in “workout logs, messages to gaming friends, and online posts.” When I realized that even my
+            daily life had many forms of writing and reading, it pushed me to think deeper about literacy. This was the
+            first moment I saw that my own communities could become research topics. That was my first warm up rep
+            because I started looking at everyday activities as possible research questions instead of separate hobbies.
           </p>
         </div>
 
@@ -50,11 +50,12 @@ function WarmUpQuestions() {
             </button>
           </div>
           <p className="subtext">
-            Discussion 7 helped me shape my ideas even more. I focused on fitness and the way people learn the rules of
-            the gym. I wrote about how new gym members feel confused and nervous when they do not know the machines,
-            language, or social rules. This made me think about gym literacy. Gym literacy means the words, rules, and
-            behaviors that people learn when they enter the gym community. After more writing and reading, I created a
-            clear research question. My question became how learning the literacy of gym culture affects beginners
+            In Discussion 7 my inquiry started to take shape. I wrote about gym culture and why beginners sometimes feel
+            lost when they enter fitness spaces. In that post I wrote that “new gym members feel confused and nervous
+            when they do not know the machines, language, or social rules.” That sentence showed me I was already
+            talking about literacy without using the word. I also wrote that gym literacy “means the words, rules, and
+            behaviors that people learn when they enter the gym community.” After working through the assignment prompts,
+            I turned my broad idea into a real question: How does learning the literacy of gym culture affect beginners
             confidence and long term fitness participation.
           </p>
         </div>
@@ -71,10 +72,14 @@ function WarmUpQuestions() {
             </button>
           </div>
           <p className="subtext">
-            Discussion 9 added even more strength to my question. I found four peer reviewed articles about gym culture.
-            They talked about gender, motivation, digital tracking tools, and body image. These showed me that confidence
-            in the gym is not only about lifting. It is also about social rules, expectations, and technology. This
-            helped me sharpen my question and understand it better.
+            In Discussion 9 I added more weight to my inquiry by bringing in real research. I found four peer reviewed
+            sources about gender, motivation, body image, and tracking technology. In my post I wrote that Andreasson and
+            Johansson show how gym culture “supports specific masculine behaviors,” and that Kristensen’s article says
+            tracking tools “create barriers for people who lack experience with technology.” Putting these quotes
+            together helped me see that confidence in the gym is not only physical. It is also social, emotional, and
+            digital. Discussion 9 helped me sharpen my research question because each source gave me another angle to
+            think about. I learned that inquiry grows slowly one step at a time, the same way you add small plates to a
+            warm up set.
           </p>
         </div>
 
@@ -90,10 +95,13 @@ function WarmUpQuestions() {
             </button>
           </div>
           <p className="subtext">
-            My Literate Activity Report helped me see literacy happening in real life. I observed a cycling class at the
-            UCF gym and saw how people read numbers on the screen, listen to music, follow the coach, and match the
-            rhythm. The class had its own literacy system. This connected to my research question because it showed that
-            fitness spaces are full of literacy practices.
+            My Literate Activity Report helped me understand inquiry in the real world. I observed a cycling class at UCF
+            and took notes on everything happening which included movement, sound, screen numbers, music, and emotions.
+            In my report, I wrote that participants “read cadence numbers on the big screen and follow the beat of the
+            music,” and that the instructor’s motivational line “This burn is temporary, but the strength you gain is
+            permanent” shaped the mood of the class. That moment showed me that literacy exists everywhere, even in a
+            workout. This assignment connected directly to my research question because I saw gym literacy happening in
+            front of me. It made my inquiry feel real.
           </p>
         </div>
 
@@ -109,10 +117,13 @@ function WarmUpQuestions() {
             </button>
           </div>
           <p className="subtext">
-            Finally, the Initial Research Proposal brought all my inquiry together. I explained why gym literacy matters
-            for confidence and participation, and I used the sources I found to support it. This helped me understand my
-            question clearly and show why it is important. That is how I met Outcome 1, because I learned how to create a
-            real research question that came from my own experience as a lifter and a writer.
+            Finally, my Initial Research Proposal brought everything together. In the proposal I wrote that gym literacy
+            is made of “social rules, digital tools, and emotional experiences,” and that these shape how beginners feel
+            in the gym. I used the sources from Discussion 9 and added deeper explanations. Writing the proposal helped
+            me prove that my research question matters for students who use campus gyms. It also helped me see how inquiry
+            turns into a full research project. By the end I moved from a loose idea to a focused question supported by
+            evidence. That is how I met Outcome 1. I learned how to form a real research question that came from my own
+            life and grew stronger through reading, reflection, and observation.
           </p>
         </div>
       </div>

@@ -5,7 +5,7 @@ function Home({ onNavigate }) {
     <header className="hero">
       <div className="hero-copy">
         <p className="eyebrow">Home</p>
-        <h1>Home</h1>
+        <h1>Welcome to my ENC1102 Eportfolio</h1>
         <p className="subtext">
           I designed this site like a gym log: darker palette, bold headers, and sections that feel like stations. I
           stuck with a lifting theme because it matches how the semester felt: starting with shaky reps, drilling form,
