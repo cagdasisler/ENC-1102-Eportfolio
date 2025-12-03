@@ -21,7 +21,7 @@ const tabs = [
 ]
 
 function App() {
-  const [activeTab, setActiveTab] = useState('intro')
+  const [activeTab, setActiveTab] = useState('home')
 
   const renderTab = () => {
     switch (activeTab) {
