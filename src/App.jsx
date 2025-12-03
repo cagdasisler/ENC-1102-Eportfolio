@@ -7,7 +7,6 @@ const outcomes = [
   {
     id: 'outcome-1',
     title: 'Outcome 1 · Generating Inquiry',
-    description: '',
     artifacts: [
       {
         name: 'Literate Activity Report (PDF)',
@@ -28,7 +27,6 @@ const outcomes = [
   {
     id: 'outcome-2',
     title: 'Outcome 2 · Multiple Ways of Writing',
-    description: '',
     artifacts: [
       {
         name: 'Course ePortfolio (this site)',
@@ -49,7 +47,6 @@ const outcomes = [
   {
     id: 'outcome-3',
     title: 'Outcome 3 · Information Literacy',
-    description: '',
     artifacts: [
       {
         name: 'Research Log (PDF)',
@@ -70,7 +67,6 @@ const outcomes = [
   {
     id: 'outcome-4',
     title: 'Outcome 4 · Research Genre Production',
-    description: '',
     artifacts: [
       {
         name: 'Final Research Proposal (PDF)',
@@ -91,7 +87,6 @@ const outcomes = [
   {
     id: 'outcome-5',
     title: 'Outcome 5 · Contributing Knowledge',
-    description: '',
     artifacts: [
       {
         name: 'Literature Review “niche” section',
@@ -112,7 +107,6 @@ const outcomes = [
   {
     id: 'outcome-6',
     title: 'Outcome 6 · Revision',
-    description: '',
     artifacts: [
       {
         name: 'Revision map with peer feedback',
@@ -166,7 +160,6 @@ function OutcomeSection({ outcome }) {
         <div>
           <p className="eyebrow">ENC 1102 · Evidence</p>
           <h3>{outcome.title}</h3>
-          <p className="subtext">{outcome.description}</p>
         </div>
       </div>
 
