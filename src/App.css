@@ -275,6 +275,24 @@
   border: none;
 }
 
+.double-preview {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.6rem;
+}
+
+@media (min-width: 768px) {
+  .double-preview {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.double-actions {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 0.5rem;
+}
+
 .outcomes-wrapper > h2 {
   margin-bottom: 0.15rem;
 }
