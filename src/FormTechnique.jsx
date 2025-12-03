@@ -109,15 +109,15 @@ function FormTechnique() {
           </p>
         </div>
 
+      </div>
+
+      <div className="tab-card">
         <p className="subtext">
           Even this Course ePortfolio is a multimodal project. I mixed writing with visuals, tabs, layout, navigation,
           and a gym theme. That taught me that writing is not only words. It is also design choices and how information
-          is presented.
-        </p>
-        <p className="subtext">
-          This is how I met Outcome 2. I learned to combine modes to make my ideas clearer. I used movement, sound,
-          images, numbers, quotes, academic writing, digital tools, and personal experience all at once to support my
-          goals.
+          is presented. This is how I met Outcome 2. I learned to combine modes to make my ideas clearer. I used
+          movement, sound, images, numbers, quotes, academic writing, digital tools, and personal experience all at once
+          to support my goals.
         </p>
       </div>
 

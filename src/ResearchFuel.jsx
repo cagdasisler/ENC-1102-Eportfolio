@@ -97,6 +97,15 @@ function ResearchFuel() {
         </p>
       </div>
 
+      <div className="tab-card">
+        <p className="subtext">
+          Outcome 3 taught me that a good draft needs clean sources the same way a good workout needs clean fuel. When I
+          cut out weak sources and kept only the ones that were relevant, credible, and ethical, my writing became
+          stronger and easier to trust. By the time I reached my final proposal, I was choosing sources with purpose
+          instead of guessing. That is how I met Outcome 3.
+        </p>
+      </div>
+
       {expandedSrc && (
         <div className="modal-backdrop" onClick={() => setExpandedSrc(null)}>
           <div className="modal" onClick={(e) => e.stopPropagation()}>
