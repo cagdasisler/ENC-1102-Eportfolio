@@ -21,8 +21,21 @@ function CoachingRevision() {
         <div className="preview-row">
           <div className="preview-card">
             <h3>Discussion 10 Preview</h3>
-            <div className="mini-embed" onClick={() => setExpandedSrc('/files/discussion10.pdf')}>
+            <div className="mini-embed">
               <iframe title="Discussion 10 preview" src="/files/discussion10.pdf" />
+            </div>
+            <div className="preview-actions">
+              <button className="pill-btn ghost small" onClick={() => setExpandedSrc('/files/discussion10.pdf')}>
+                View full PDF
+              </button>
+              <a
+                className="pill-btn small"
+                href="/files/discussion10.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Open in new tab
+              </a>
             </div>
           </div>
           <p className="subtext">
@@ -38,8 +51,21 @@ function CoachingRevision() {
         <div className="preview-row">
           <div className="preview-card">
             <h3>Discussion 26 Preview</h3>
-            <div className="mini-embed" onClick={() => setExpandedSrc('/files/discussion26.pdf')}>
+            <div className="mini-embed">
               <iframe title="Discussion 26 preview" src="/files/discussion26.pdf" />
+            </div>
+            <div className="preview-actions">
+              <button className="pill-btn ghost small" onClick={() => setExpandedSrc('/files/discussion26.pdf')}>
+                View full PDF
+              </button>
+              <a
+                className="pill-btn small"
+                href="/files/discussion26.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Open in new tab
+              </a>
             </div>
           </div>
           <p className="subtext">
@@ -57,11 +83,47 @@ function CoachingRevision() {
         <div className="preview-row">
           <div className="preview-card two-up">
             <div className="double-preview">
-              <div className="mini-embed" onClick={() => setExpandedSrc('/files/initial-research-proposal.pdf')}>
-                <iframe title="Initial Draft preview" src="/files/initial-research-proposal.pdf" />
+              <div>
+                <div className="mini-embed">
+                  <iframe title="Initial Draft preview" src="/files/initial-research-proposal.pdf" />
+                </div>
+                <div className="preview-actions">
+                  <button
+                    className="pill-btn ghost small"
+                    onClick={() => setExpandedSrc('/files/initial-research-proposal.pdf')}
+                  >
+                    View full PDF
+                  </button>
+                  <a
+                    className="pill-btn small"
+                    href="/files/initial-research-proposal.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Open in new tab
+                  </a>
+                </div>
               </div>
-              <div className="mini-embed" onClick={() => setExpandedSrc('/files/final-research-proposal.pdf')}>
-                <iframe title="Final Draft preview" src="/files/final-research-proposal.pdf" />
+              <div>
+                <div className="mini-embed">
+                  <iframe title="Final Draft preview" src="/files/final-research-proposal.pdf" />
+                </div>
+                <div className="preview-actions">
+                  <button
+                    className="pill-btn ghost small"
+                    onClick={() => setExpandedSrc('/files/final-research-proposal.pdf')}
+                  >
+                    View full PDF
+                  </button>
+                  <a
+                    className="pill-btn small"
+                    href="/files/final-research-proposal.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Open in new tab
+                  </a>
+                </div>
               </div>
             </div>
           </div>

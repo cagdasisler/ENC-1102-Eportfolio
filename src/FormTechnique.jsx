@@ -21,8 +21,21 @@ function FormTechnique() {
         <div className="preview-row">
           <div className="preview-card">
             <h3>Discussion 3 Preview</h3>
-            <div className="mini-embed" onClick={() => setExpandedSrc('/files/discussion3.pdf')}>
+            <div className="mini-embed">
               <iframe title="Discussion 3 preview" src="/files/discussion3.pdf" />
+            </div>
+            <div className="preview-actions">
+              <button className="pill-btn ghost small" onClick={() => setExpandedSrc('/files/discussion3.pdf')}>
+                View full PDF
+              </button>
+              <a
+                className="pill-btn small"
+                href="/files/discussion3.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Open in new tab
+              </a>
             </div>
           </div>
           <p className="subtext">
@@ -40,8 +53,21 @@ function FormTechnique() {
         <div className="preview-row">
           <div className="preview-card">
             <h3>Discussion 9 Preview</h3>
-            <div className="mini-embed" onClick={() => setExpandedSrc('/files/discussion9.pdf')}>
+            <div className="mini-embed">
               <iframe title="Discussion 9 preview" src="/files/discussion9.pdf" />
+            </div>
+            <div className="preview-actions">
+              <button className="pill-btn ghost small" onClick={() => setExpandedSrc('/files/discussion9.pdf')}>
+                View full PDF
+              </button>
+              <a
+                className="pill-btn small"
+                href="/files/discussion9.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Open in new tab
+              </a>
             </div>
           </div>
           <p className="subtext">
@@ -60,8 +86,24 @@ function FormTechnique() {
         <div className="preview-row">
           <div className="preview-card">
             <h3>Literate Activity Report Preview</h3>
-            <div className="mini-embed" onClick={() => setExpandedSrc('/files/literate-activity-report.pdf')}>
+            <div className="mini-embed">
               <iframe title="Literate Activity Report preview" src="/files/literate-activity-report.pdf" />
+            </div>
+            <div className="preview-actions">
+              <button
+                className="pill-btn ghost small"
+                onClick={() => setExpandedSrc('/files/literate-activity-report.pdf')}
+              >
+                View full PDF
+              </button>
+              <a
+                className="pill-btn small"
+                href="/files/literate-activity-report.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Open in new tab
+              </a>
             </div>
           </div>
           <p className="subtext">
@@ -79,8 +121,21 @@ function FormTechnique() {
         <div className="preview-row">
           <div className="preview-card">
             <h3>Final Research Proposal Preview</h3>
-            <div className="mini-embed" onClick={() => setExpandedSrc('/files/final-research-proposal.pdf')}>
+            <div className="mini-embed">
               <iframe title="Final Research Proposal preview" src="/files/final-research-proposal.pdf" />
+            </div>
+            <div className="preview-actions">
+              <button className="pill-btn ghost small" onClick={() => setExpandedSrc('/files/final-research-proposal.pdf')}>
+                View full PDF
+              </button>
+              <a
+                className="pill-btn small"
+                href="/files/final-research-proposal.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Open in new tab
+              </a>
             </div>
           </div>
           <p className="subtext">

@@ -21,8 +21,21 @@ function ResearchFuel() {
         <div className="preview-row">
           <div className="preview-card">
             <h3>Research Log Preview</h3>
-            <div className="mini-embed" onClick={() => setExpandedSrc('/files/research-log.pdf')}>
+            <div className="mini-embed">
               <iframe title="Research Log preview" src="/files/research-log.pdf" />
+            </div>
+            <div className="preview-actions">
+              <button className="pill-btn ghost small" onClick={() => setExpandedSrc('/files/research-log.pdf')}>
+                View full PDF
+              </button>
+              <a
+                className="pill-btn small"
+                href="/files/research-log.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Open in new tab
+              </a>
             </div>
           </div>
           <p className="subtext">
@@ -39,8 +52,21 @@ function ResearchFuel() {
         <div className="preview-row">
           <div className="preview-card">
             <h3>Literature Review Preview</h3>
-            <div className="mini-embed" onClick={() => setExpandedSrc('/files/literature-review.pdf')}>
+            <div className="mini-embed">
               <iframe title="Literature Review preview" src="/files/literature-review.pdf" />
+            </div>
+            <div className="preview-actions">
+              <button className="pill-btn ghost small" onClick={() => setExpandedSrc('/files/literature-review.pdf')}>
+                View full PDF
+              </button>
+              <a
+                className="pill-btn small"
+                href="/files/literature-review.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Open in new tab
+              </a>
             </div>
           </div>
           <p className="subtext">
@@ -60,8 +86,24 @@ function ResearchFuel() {
         <div className="preview-row">
           <div className="preview-card">
             <h3>Initial Research Proposal Preview</h3>
-            <div className="mini-embed" onClick={() => setExpandedSrc('/files/initial-research-proposal.pdf')}>
+            <div className="mini-embed">
               <iframe title="Initial Research Proposal preview" src="/files/initial-research-proposal.pdf" />
+            </div>
+            <div className="preview-actions">
+              <button
+                className="pill-btn ghost small"
+                onClick={() => setExpandedSrc('/files/initial-research-proposal.pdf')}
+              >
+                View full PDF
+              </button>
+              <a
+                className="pill-btn small"
+                href="/files/initial-research-proposal.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Open in new tab
+              </a>
             </div>
           </div>
           <p className="subtext">
