@@ -22,7 +22,6 @@ Place your PDFs in `public/files/` with these exact names so the preview iframes
 - `discussion1.pdf`, `discussion3.pdf`, `discussion7.pdf`, `discussion9.pdf`, `discussion10.pdf`, `discussion26.pdf`
 - `research-log.pdf`, `literature-review.pdf`, `literate-activity-report.pdf`
 - `initial-research-proposal.pdf`, `final-research-proposal.pdf`
-- `initial-draft.pdf`, `final-draft.pdf`
 
 ## Customize the look
 - Colors/spacing live in `src/App.css` and `src/index.css`.

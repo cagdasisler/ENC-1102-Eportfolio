@@ -20,13 +20,9 @@ function WarmUpQuestions() {
         <div className="preview-row">
           <div className="preview-card">
             <h3>Discussion 1</h3>
-            <p className="microcopy">Click to view full work</p>
             <div className="mini-embed" onClick={() => setExpandedSrc('/files/discussion1.pdf')}>
               <iframe title="Discussion 1 preview" src="/files/discussion1.pdf" />
             </div>
-            <button className="pill-btn small" onClick={() => setExpandedSrc('/files/discussion1.pdf')}>
-              Expand preview
-            </button>
           </div>
           <p className="subtext">
             In Discussion 1 I took my first small steps into inquiry. I introduced myself and talked about my backgrounds
@@ -41,13 +37,9 @@ function WarmUpQuestions() {
         <div className="preview-row">
           <div className="preview-card">
             <h3>Discussion 7</h3>
-            <p className="microcopy">Click to view full work</p>
             <div className="mini-embed" onClick={() => setExpandedSrc('/files/discussion7.pdf')}>
               <iframe title="Discussion 7 preview" src="/files/discussion7.pdf" />
             </div>
-            <button className="pill-btn small" onClick={() => setExpandedSrc('/files/discussion7.pdf')}>
-              Expand preview
-            </button>
           </div>
           <p className="subtext">
             In Discussion 7 my inquiry started to take shape. I wrote about gym culture and why beginners sometimes feel
@@ -63,13 +55,9 @@ function WarmUpQuestions() {
         <div className="preview-row">
           <div className="preview-card">
             <h3>Discussion 9</h3>
-            <p className="microcopy">Click to view full work</p>
             <div className="mini-embed" onClick={() => setExpandedSrc('/files/discussion9.pdf')}>
               <iframe title="Discussion 9 preview" src="/files/discussion9.pdf" />
             </div>
-            <button className="pill-btn small" onClick={() => setExpandedSrc('/files/discussion9.pdf')}>
-              Expand preview
-            </button>
           </div>
           <p className="subtext">
             In Discussion 9 I added more weight to my inquiry by bringing in real research. I found four peer reviewed
@@ -86,13 +74,9 @@ function WarmUpQuestions() {
         <div className="preview-row">
           <div className="preview-card">
             <h3>Literate Activity Report</h3>
-            <p className="microcopy">Click to view full work</p>
             <div className="mini-embed" onClick={() => setExpandedSrc('/files/literate-activity-report.pdf')}>
               <iframe title="Literate Activity Report preview" src="/files/literate-activity-report.pdf" />
             </div>
-            <button className="pill-btn small" onClick={() => setExpandedSrc('/files/literate-activity-report.pdf')}>
-              Expand preview
-            </button>
           </div>
           <p className="subtext">
             My Literate Activity Report helped me understand inquiry in the real world. I observed a cycling class at UCF
@@ -108,13 +92,9 @@ function WarmUpQuestions() {
         <div className="preview-row">
           <div className="preview-card">
             <h3>Initial Research Proposal</h3>
-            <p className="microcopy">Click to view full work</p>
             <div className="mini-embed" onClick={() => setExpandedSrc('/files/initial-research-proposal.pdf')}>
               <iframe title="Initial Research Proposal preview" src="/files/initial-research-proposal.pdf" />
             </div>
-            <button className="pill-btn small" onClick={() => setExpandedSrc('/files/initial-research-proposal.pdf')}>
-              Expand preview
-            </button>
           </div>
           <p className="subtext">
             Finally, my Initial Research Proposal brought everything together. In the proposal I wrote that gym literacy

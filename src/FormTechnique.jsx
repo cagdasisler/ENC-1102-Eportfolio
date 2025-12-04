@@ -21,13 +21,9 @@ function FormTechnique() {
         <div className="preview-row">
           <div className="preview-card">
             <h3>Discussion 3 Preview</h3>
-            <p className="microcopy">Click to view full work</p>
             <div className="mini-embed" onClick={() => setExpandedSrc('/files/discussion3.pdf')}>
               <iframe title="Discussion 3 preview" src="/files/discussion3.pdf" />
             </div>
-            <button className="pill-btn small" onClick={() => setExpandedSrc('/files/discussion3.pdf')}>
-              Expand preview
-            </button>
           </div>
           <p className="subtext">
             In Discussion 3 I learned how different forms change meaning. I wrote about Fishman and Halvey and compared
@@ -44,13 +40,9 @@ function FormTechnique() {
         <div className="preview-row">
           <div className="preview-card">
             <h3>Discussion 9 Preview</h3>
-            <p className="microcopy">Click to view full work</p>
             <div className="mini-embed" onClick={() => setExpandedSrc('/files/discussion9.pdf')}>
               <iframe title="Discussion 9 preview" src="/files/discussion9.pdf" />
             </div>
-            <button className="pill-btn small" onClick={() => setExpandedSrc('/files/discussion9.pdf')}>
-              Expand preview
-            </button>
           </div>
           <p className="subtext">
             In Discussion 9 I used multiple modes again. That discussion mixed quotes from four articles, summaries, my
@@ -68,13 +60,9 @@ function FormTechnique() {
         <div className="preview-row">
           <div className="preview-card">
             <h3>Literate Activity Report Preview</h3>
-            <p className="microcopy">Click to view full work</p>
             <div className="mini-embed" onClick={() => setExpandedSrc('/files/literate-activity-report.pdf')}>
               <iframe title="Literate Activity Report preview" src="/files/literate-activity-report.pdf" />
             </div>
-            <button className="pill-btn small" onClick={() => setExpandedSrc('/files/literate-activity-report.pdf')}>
-              Expand preview
-            </button>
           </div>
           <p className="subtext">
             My Literate Activity Report was the assignment that showed me multimodality the most. In that report I used
@@ -91,13 +79,9 @@ function FormTechnique() {
         <div className="preview-row">
           <div className="preview-card">
             <h3>Final Research Proposal Preview</h3>
-            <p className="microcopy">Click to view full work</p>
             <div className="mini-embed" onClick={() => setExpandedSrc('/files/final-research-proposal.pdf')}>
               <iframe title="Final Research Proposal preview" src="/files/final-research-proposal.pdf" />
             </div>
-            <button className="pill-btn small" onClick={() => setExpandedSrc('/files/final-research-proposal.pdf')}>
-              Expand preview
-            </button>
           </div>
           <p className="subtext">
             My Final Research Proposal used multiple modes again. I used academic evidence, emotional explanations, gym

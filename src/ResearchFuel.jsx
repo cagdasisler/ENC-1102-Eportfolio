@@ -21,13 +21,9 @@ function ResearchFuel() {
         <div className="preview-row">
           <div className="preview-card">
             <h3>Research Log Preview</h3>
-            <p className="microcopy">Click to view full work</p>
             <div className="mini-embed" onClick={() => setExpandedSrc('/files/research-log.pdf')}>
               <iframe title="Research Log preview" src="/files/research-log.pdf" />
             </div>
-            <button className="pill-btn small" onClick={() => setExpandedSrc('/files/research-log.pdf')}>
-              Expand preview
-            </button>
           </div>
           <p className="subtext">
             My Research Log was the first place where this skill really showed up. In that assignment I wrote down
@@ -43,13 +39,9 @@ function ResearchFuel() {
         <div className="preview-row">
           <div className="preview-card">
             <h3>Literature Review Preview</h3>
-            <p className="microcopy">Click to view full work</p>
             <div className="mini-embed" onClick={() => setExpandedSrc('/files/literature-review.pdf')}>
               <iframe title="Literature Review preview" src="/files/literature-review.pdf" />
             </div>
-            <button className="pill-btn small" onClick={() => setExpandedSrc('/files/literature-review.pdf')}>
-              Expand preview
-            </button>
           </div>
           <p className="subtext">
             In my Literature Review, I learned how to evaluate sources as a group instead of separately. I had to decide
@@ -68,13 +60,9 @@ function ResearchFuel() {
         <div className="preview-row">
           <div className="preview-card">
             <h3>Initial Research Proposal Preview</h3>
-            <p className="microcopy">Click to view full work</p>
             <div className="mini-embed" onClick={() => setExpandedSrc('/files/initial-research-proposal.pdf')}>
               <iframe title="Initial Research Proposal preview" src="/files/initial-research-proposal.pdf" />
             </div>
-            <button className="pill-btn small" onClick={() => setExpandedSrc('/files/initial-research-proposal.pdf')}>
-              Expand preview
-            </button>
           </div>
           <p className="subtext">
             My Initial Research Proposal brought all this filtering together. By the time I wrote it, I had already

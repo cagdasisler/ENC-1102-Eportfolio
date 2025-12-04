@@ -21,13 +21,9 @@ function CoachingRevision() {
         <div className="preview-row">
           <div className="preview-card">
             <h3>Discussion 10 Preview</h3>
-            <p className="microcopy">Click to view full work</p>
             <div className="mini-embed" onClick={() => setExpandedSrc('/files/discussion10.pdf')}>
               <iframe title="Discussion 10 preview" src="/files/discussion10.pdf" />
             </div>
-            <button className="pill-btn small" onClick={() => setExpandedSrc('/files/discussion10.pdf')}>
-              Expand preview
-            </button>
           </div>
           <p className="subtext">
             In Discussion 10, Ayush and Nieko gave me specific feedback on my Background and Plan sections. Ayush told me
@@ -42,13 +38,9 @@ function CoachingRevision() {
         <div className="preview-row">
           <div className="preview-card">
             <h3>Discussion 26 Preview</h3>
-            <p className="microcopy">Click to view full work</p>
             <div className="mini-embed" onClick={() => setExpandedSrc('/files/discussion26.pdf')}>
               <iframe title="Discussion 26 preview" src="/files/discussion26.pdf" />
             </div>
-            <button className="pill-btn small" onClick={() => setExpandedSrc('/files/discussion26.pdf')}>
-              Expand preview
-            </button>
           </div>
           <p className="subtext">
             In Discussion 26, I received more direct feedback on my Methodology and Significance sections. Brian told me
@@ -65,20 +57,12 @@ function CoachingRevision() {
         <div className="preview-row">
           <div className="preview-card two-up">
             <div className="double-preview">
-              <div className="mini-embed" onClick={() => setExpandedSrc('/files/initial-draft.pdf')}>
-                <iframe title="Initial Draft preview" src="/files/initial-draft.pdf" />
+              <div className="mini-embed" onClick={() => setExpandedSrc('/files/initial-research-proposal.pdf')}>
+                <iframe title="Initial Draft preview" src="/files/initial-research-proposal.pdf" />
               </div>
-              <div className="mini-embed" onClick={() => setExpandedSrc('/files/final-draft.pdf')}>
-                <iframe title="Final Draft preview" src="/files/final-draft.pdf" />
+              <div className="mini-embed" onClick={() => setExpandedSrc('/files/final-research-proposal.pdf')}>
+                <iframe title="Final Draft preview" src="/files/final-research-proposal.pdf" />
               </div>
-            </div>
-            <div className="double-actions">
-              <button className="pill-btn small" onClick={() => setExpandedSrc('/files/initial-draft.pdf')}>
-                Expand Initial Draft
-              </button>
-              <button className="pill-btn small" onClick={() => setExpandedSrc('/files/final-draft.pdf')}>
-                Expand Final Draft
-              </button>
             </div>
           </div>
           <p className="subtext">

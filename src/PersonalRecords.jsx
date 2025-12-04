@@ -21,13 +21,9 @@ function PersonalRecords() {
         <div className="preview-row">
           <div className="preview-card">
             <h3>Literature Review Preview</h3>
-            <p className="microcopy">Click to view full work</p>
             <div className="mini-embed" onClick={() => setExpandedSrc('/files/literature-review.pdf')}>
               <iframe title="Literature Review preview" src="/files/literature-review.pdf" />
             </div>
-            <button className="pill-btn small" onClick={() => setExpandedSrc('/files/literature-review.pdf')}>
-              Expand preview
-            </button>
           </div>
           <p className="subtext">
             My Literature Review was the first assignment where this contribution appeared. In the niche section, I
@@ -43,13 +39,9 @@ function PersonalRecords() {
         <div className="preview-row">
           <div className="preview-card">
             <h3>Initial Research Proposal Preview</h3>
-            <p className="microcopy">Click to view full work</p>
             <div className="mini-embed" onClick={() => setExpandedSrc('/files/initial-research-proposal.pdf')}>
               <iframe title="Initial Research Proposal preview" src="/files/initial-research-proposal.pdf" />
             </div>
-            <button className="pill-btn small" onClick={() => setExpandedSrc('/files/initial-research-proposal.pdf')}>
-              Expand preview
-            </button>
           </div>
           <p className="subtext">
             My Initial Research Proposal also supported this outcome because it was the first time I noticed how
@@ -62,13 +54,9 @@ function PersonalRecords() {
         <div className="preview-row">
           <div className="preview-card">
             <h3>Final Research Proposal Preview</h3>
-            <p className="microcopy">Click to view full work</p>
             <div className="mini-embed" onClick={() => setExpandedSrc('/files/final-research-proposal.pdf')}>
               <iframe title="Final Research Proposal preview" src="/files/final-research-proposal.pdf" />
             </div>
-            <button className="pill-btn small" onClick={() => setExpandedSrc('/files/final-research-proposal.pdf')}>
-              Expand preview
-            </button>
           </div>
           <p className="subtext">
             In my Final Research Proposal, I shaped this insight into a full contribution. In the significance section, I
